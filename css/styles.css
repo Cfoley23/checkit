@@ -1,13 +1,25 @@
 /*  potential color theme #E96672  #FFA87C  #81E1D3  #1897C1  #0A4563   */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-  background-color: #232325;
+  background-image: linear-gradient(0deg,#000,#299740, #fff);
 }
 
 .nav-link {
   font-weight: 600;
 }
 
-body {
-  background-color: #76b1cf;
+.nav-item {
+  list-style: none;
 }
+
+body {
+  background-image: linear-gradient(90deg, #232325, #fff);
+  font-family: 'Poppins', sans-serif;
+}
+
